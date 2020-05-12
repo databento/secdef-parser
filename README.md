@@ -1,7 +1,7 @@
 # secdef-parser
 
 This project contains a command line tool that demonstrates how to parse secdef
-files found on [CME's public FTP server](ftp://ftp.cmegroup.com/SBEFix/Production/). 
+files found on CME's public FTP server (ftp://ftp.cmegroup.com/SBEFix/Production/). 
 For the purpose of this demonstration, the tool generates a list of the most
 active futures products ranked by open interest.  
 
@@ -17,7 +17,7 @@ extracted by this tool.
 CME updates its secdef files almost daily. However, for intraday instrument 
 definition updates, you should not be using this approach.
 
-More information about secdef files can be found [here](ftp://ftp.cmegroup.com/SBEFix/Production/secdef_disclaimer.txt).
+More information about secdef files can be found at: ftp://ftp.cmegroup.com/SBEFix/Production/secdef_disclaimer.txt
 
 
 # Requirements
@@ -48,8 +48,8 @@ By default, the parser will look for `secdef.dat.gz` as the input secdef file
 in your local directory and write the output as comma-separated 
 values to `list.csv`.
 
-First, [download a copy of the secdef file](ftp://ftp.cmegroup.com/SBEFix/Production/secdef.dat.gz)
-from CME. Then run the parser:
+First, download the latest copy of the secdef file from ftp://ftp.cmegroup.com/SBEFix/Production/secdef.dat.gz
+Then run the parser:
 
 ```bash
 # Run with default input and output
